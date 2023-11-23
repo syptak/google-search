@@ -6,11 +6,16 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 5rem;
 }
 #navbar a {
     color: white;
     text-decoration: none;
+}
+#navbar a:hover{
+    background-color: black;
+    border-radius: 15%;
 }
 #navbar ul {
     display: flex;
@@ -21,32 +26,29 @@ body {
     padding: 0.25rem;
     margin: 0.25rem;
 }
-.search input[type=text]{
+#showcase .search input[type=text]{
     width: 35%;
     padding: 9px 20px;
     text-align: left;
-    border-radius: 6px;
-    background-color: #fff;
+    border-radius: 15px;
+    border-color: white;
+    background-color: #333;
     font-weight: 300;
     margin-top: 16px;
 }
 #showcase {
-    background: #333 url('../img/greek_ruins.jpg') no-repeat center center/cover;
-    height: 90vh;
-}
-#showcase .showcase-content {
-    display: flex;
-    flex-direction: column;
     text-align: center;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
     padding: 0 2;
-    color: #fff;
-    background-color: rgba(0,0,0,0.50);
+    margin: auto;
 }
 footer {
+    margin-top: 25rem;
     background-color: black;
+    padding-left: 1rem;
+}
+.logo-img {
+    display: flex;
+    justify-content: center;
     margin: auto;
-    text-align: center;
+    background: no-repeat center center/cover;
 }
