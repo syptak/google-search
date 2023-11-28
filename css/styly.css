@@ -1,6 +1,11 @@
 body {
-    background-color: #333;
-    color: white;
+    background-color: #1e1e1e;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #bdc1c6;
+}
+.alt-color {
+    color: rgb(56, 106, 255);
 }
 #navbar {
     display: flex;
@@ -32,23 +37,47 @@ body {
     text-align: left;
     border-radius: 15px;
     border-color: white;
-    background-color: #333;
+    background-color: #1e1e1e;
     font-weight: 300;
     margin-top: 16px;
+    color: white;
 }
 #showcase {
     text-align: center;
     padding: 0 2;
     margin: auto;
 }
-footer {
-    margin-top: 35rem;
-    background-color: black;
-    padding-left: 1rem;
-}
 .logo-img {
     display: flex;
     justify-content: center;
     margin: auto;
     background: no-repeat center center/cover;
+}
+#buttons {
+    margin: auto;
+    height: 70px;
+    padding-top: 18px;
+    text-align: center;
+}
+.button {
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.advanced {
+
+}
+.advanced1 {
+    
 }
