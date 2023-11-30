@@ -51,6 +51,7 @@ body {
     display: flex;
     justify-content: center;
     margin: auto;
+    margin-bottom: 1rem;
     background: no-repeat center center/cover;
 }
 #buttons {
@@ -75,9 +76,13 @@ body {
     cursor: pointer;
     user-select: none;
 }
-.advanced {
-
+.button:hover {
+    background-color: #252728;
 }
-.advanced1 {
-    
+#advanced {
+    font-size: 16px;
+    max-width: 300px;
+    text-align: center;
+    margin: auto;
+    padding: 0 3;
 }
